@@ -7,7 +7,10 @@ function produceDrivingRange(range) {
     console.log("dif: " + dif)
 
     if (dif > range) {
-      return (dif - range) + " blocks out of range"
+      return (dif - range) + " blocks out of range";
+    }
+    else {
+      return "within range by " + (range - dif);
     }
 
 
