@@ -2,7 +2,7 @@ function produceDrivingRange(range) {
   return function(block1, block2) {
     let b1 = block1.slice(0, -2);
     let b2 = block2.slice(0, -2);
-    let dif = abs(b1 - b2);
+    let dif = Math.abs(b1 - b2);
     console.log("b1: " + b1 + " b2: " + b2)
     console.log("dif: " + dif)
 
