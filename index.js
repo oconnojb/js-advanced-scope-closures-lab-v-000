@@ -6,7 +6,7 @@ function produceDrivingRange(range) {
     console.log("b1: " + b1 + " b2: " + b2)
     console.log("dif: ", dif)
 
-    
+
     /*
     if (b1-b2 < range) {
       console.log("range: " + range);
